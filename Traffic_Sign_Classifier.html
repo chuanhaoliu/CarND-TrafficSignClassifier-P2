@@ -13201,10 +13201,11 @@ a = np.array([[ 0.24879643,  0.07032244,  0.12641572,  0.34763842,  0.07893497,
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Calculate-the-accuracy-for-these-7-new-images.">Calculate the accuracy for these 7 new images.<a class="anchor-link" href="#Calculate-the-accuracy-for-these-7-new-images.">&#182;</a></h3><h3 id="For-example,-if-the-model-predicted-1-out-of-7-signs-correctly,-it's-20%-accurate-on-these-new-images.">For example, if the model predicted 1 out of 7 signs correctly, it's 20% accurate on these new images.<a class="anchor-link" href="#For-example,-if-the-model-predicted-1-out-of-7-signs-correctly,-it's-20%-accurate-on-these-new-images.">&#182;</a></h3><ul>
-<li>Analysis Result: 5 in 7 is correct, the accuracy rate is 71.4% for this trained model</li>
+<h3 id="Calculate-the-accuracy-for-these-7-new-images.">Calculate the accuracy for these 7 new images.<a class="anchor-link" href="#Calculate-the-accuracy-for-these-7-new-images.">&#182;</a></h3><h3 id="For-example,-if-the-model-predicted-1-out-of-5-signs-correctly,-it's-20%-accurate-on-these-new-images.">For example, if the model predicted 1 out of 5 signs correctly, it's 20% accurate on these new images.<a class="anchor-link" href="#For-example,-if-the-model-predicted-1-out-of-5-signs-correctly,-it's-20%-accurate-on-these-new-images.">&#182;</a></h3><ul>
+<li>Analysis Result: 5 in 7 is correct, the accuracy rate is 71.4% for this trained model, and the accuracy of the test dataset is 95.8%. It is reasonable beacause there are only 7 new images for the real test, too less number to represent the performance of the model</li>
 <li>No.4 Road work cannot be recoginzed, from my point of view, it is the brightness that affect the model</li>
 <li>For No.5 Pedestrians, there are very small amount of training data, just around 250 samples. So it is reasonable for the model not have the ability to recoginize it</li>
+<li>Above all, we can draw a conclusion from this course that 3 factors(the number of test images, the quality of test images, the number of images that participate in the model training) will affect the performance a lot</li>
 </ul>
 <table>
 <thead><tr>
